@@ -3,7 +3,7 @@
 `pysyspath` is a Python package mainly aimed at recursively crawling subfolders
 and adding it to Python's system path quickly with common quirks ironed out
 
-`pypath` is the main package that emulates MATLAB's `addpath()`, `genpath()` and `addpath(genpath())`. The major use case is 'Add everything you can find in there into the search path', which is approximately MATLAB's `addpath(genpath())`.
+`pypath` is the main module that emulates MATLAB's `addpath()`, `genpath()` and `addpath(genpath())`. The major use case is 'Add everything you can find in there into the search path', which is approximately MATLAB's `addpath(genpath())`.
 
 `lsos` (`ls` by OS) is the engine `pypath` used to crawl all subfolders recursively using standard command line
 program provided in major OS (`dir` in Windows, `find` in POSIX/Linux/MacOS).
