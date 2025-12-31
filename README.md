@@ -68,7 +68,7 @@ In the extremely rare case that you want the newly added path to be searched bef
 pypath.addpath_recursive_top('{your path here}', excludeExisting={your choice}, keepFirstEmptyPath=True)
 ```
 
-## `lsos` can be used as a standalone package
+## `lsos` can be used as a standalone module
 
 If you do not need paths already in `sys.path` to be filtered out before adding (which reduces `sys.path` bloat),
 don't bother with `pypath`.  Go straight to the juicy implementation in the `lsos` module
